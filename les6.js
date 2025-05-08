@@ -1,1 +1,5 @@
-console.log("Les 6")
+////Функціяя виконується одразу
+(function Exp(){
+    console.log('Great jobs');
+})();
+
