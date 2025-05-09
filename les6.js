@@ -70,14 +70,14 @@ console.log(typeof(res))*/
 
                                                      // Методи String
 //Найпростіший рядок
-var str = "Бачиш лапки - значить це рядок";
+/*var str = "Бачиш лапки - значить це рядок";
 console.log(str);
 console.log('І не \r важливо, які \r саме лапки');
 console.log(str);
 console.log('І не \fважливо, які \f саме лапки');
 console.log(str);
 console.log('І не \fважливо, які  \u00A9 саме \u038C лапки ');
-console.log(str);
+console.log(str);*/
 /*
 \b - backspace
 \t - tab
@@ -86,4 +86,17 @@ console.log(str);
 \f - Form feed
 \u00A9 -символ юнікоду
 */
+
+// length - вказує на кількість символів (для рядка)
+/*const myString = "HelloHelloHelloHelloHelloHello";
+console.log(myString.length);
+console.log('Порахуємо кількість букв і це буде приблизно '+'Порахуємо кількість букв і це буде приблизно'.length + ' \n ось така вийде цифра цікава');*/
+
+
+// charAt - дозволяє отримати символ за певним індексом у рядку.
+const str = "Hello, world!";
+console.log(str.charAt(0));
+console.log(str.charAt(8));
+console.log(str.charAt(13)); // Пустий рядок
+
 
