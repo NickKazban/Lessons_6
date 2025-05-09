@@ -35,4 +35,17 @@ console.log(rnd)
 rnd = Math.round(rnd);
 console.log(rnd);*/
 
+//Піднесення до ступення 
+/*function PoW(){
+    let a = Math.pow(2,3)
+    return a;
 
+}
+console.log(PoW());*/
+
+//// Максимум і мінімум зі списку
+
+let resultMIN = Math.min(3,56,34,23,7,12,1,89,156.8, 0.6)
+console.log('Мінімальне число зі списку буде дорівнювати =' + resultMIN);
+let resultMAX = Math.max(3,56,34,23,7,12,1,89,156.8, 0.6)
+console.log('Максимальне  число зі списку буде дорівнювати =' +resultMAX);
