@@ -105,3 +105,24 @@ console.log(str);
 console.log("Символ номер три: " + str.charAt(32));
 console.log("Те саме по іншому: " + str[32]);*/
 
+//endWith - використовується для перевірки, чи закінчується рядок заданим підрядком.
+// const str = "script.js";
+// console.log(str.endsWith(".js"));
+// console.log(str.endsWith("script"));
+// console.log(str.endsWith("js", 6)); //  параметр, який вказує довжину основного рядка, яку слід враховувати при пошуку.
+// console.log(str.endsWith("js", 9));
+// console.log(str.endsWith('ript',6));
+
+// includes - дозволяє перевірити, чи міститься певний підрядок (для рядків)
+//const str = "Hello, world!";
+/*console.log(str.includes("world"));
+console.log(str.includes("World"));*/
+/*console.log(str.includes("world", 8)); // позицію, з якої почати пошук
+console.log(str.includes("world", 7));*/
+
+// indexOf - дозволяє знайти індекс першого входження певного підрядка у вихідному рядку.
+const str = "Hello, world!";
+console.log(str.indexOf("world"));
+console.log(str.indexOf("World")); // А ось тут цікаво !
+console.log(str.indexOf("o", 5));
+console.log(str.indexOf("o", 9));
