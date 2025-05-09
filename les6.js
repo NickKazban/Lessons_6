@@ -68,5 +68,22 @@ console.log(res);
 console.log("Is it 0.3? " + (0.3 === res));
 console.log(typeof(res))*/
 
-
+                                                     // Методи String
+//Найпростіший рядок
+var str = "Бачиш лапки - значить це рядок";
+console.log(str);
+console.log('І не \r важливо, які \r саме лапки');
+console.log(str);
+console.log('І не \fважливо, які \f саме лапки');
+console.log(str);
+console.log('І не \fважливо, які  \u00A9 саме \u038C лапки ');
+console.log(str);
+/*
+\b - backspace
+\t - tab
+\n - New line
+\r - Carriage return
+\f - Form feed
+\u00A9 -символ юнікоду
+*/
 
