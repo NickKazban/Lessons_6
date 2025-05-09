@@ -43,9 +43,30 @@ console.log(rnd);*/
 }
 console.log(PoW());*/
 
-//// Максимум і мінімум зі списку
+                                   //// Максимум і мінімум зі списку///////
 
-let resultMIN = Math.min(3,56,34,23,7,12,1,89,156.8, 0.6)
+/*let resultMIN = Math.min(3,56,34,23,7,12,1,89,156.8, 0.6)
 console.log('Мінімальне число зі списку буде дорівнювати =' + resultMIN);
 let resultMAX = Math.max(3,56,34,23,7,12,1,89,156.8, 0.6)
-console.log('Максимальне  число зі списку буде дорівнювати =' +resultMAX);
+console.log('Максимальне  число зі списку буде дорівнювати =' +resultMAX);*/
+
+//Пару слів про точність
+/*var s = 0.1 + 0.2;
+var round = s.toFixed(1);
+console.log(s === 0.3);
+console.log(round == 0.3);
+console.log("До десятого знака: s =" + s.toFixed(10));
+console.log("До двадцятого знака: s =" + s.toFixed(20));
+console.log(0.3 === s.toFixed(1)); //а що не так ?
+console.log(Number.isFinite(s.toFixed())); // Дуже цікаво
+console.log(0.3 === Number.parseFloat(s.toFixed(1)));*/ 
+//Усі математичні операції в JavaScript виконуються у двійковому вигляді.
+// Не всякий десятковий дріб, що красиво виглядає в десятковому вигляді, так само красиво виглядає в бінарному.
+//Спосіб "підвищити точність" обчислення:
+/*var res = (0.1 * 10 + 0.2 * 10) / 10;
+console.log(res);
+console.log("Is it 0.3? " + (0.3 === res));
+console.log(typeof(res))*/
+
+
+
