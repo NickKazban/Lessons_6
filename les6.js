@@ -29,8 +29,10 @@ console.log('rnd=' + rnd.toFixed(2));*/
 
 //Більш практична задача: ціле випадкове число від 1 до 10:
 
-var rnd = Math.random();
-rnd *= 10;
+/*var rnd = Math.random();
+rnd *= 100;
 console.log(rnd)
 rnd = Math.round(rnd);
-console.log(rnd);
+console.log(rnd);*/
+
+
